@@ -150,6 +150,7 @@ nav .hamburger .line{
 #img1{
     margin-top: 10px;
     height:225px;
+    width: max-content;
   
 }
 
