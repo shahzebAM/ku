@@ -91,7 +91,7 @@ nav .hamburger{
 nav .hamburger .line{
     width: 30px;
     height: 5px;
-    background-color: rgb(80, 80, 80);
+    background-color: black;
     margin: 5px;
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
