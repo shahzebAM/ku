@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body{
     padding-bottom: 0;
     position: relative;
     margin-top: 100px;
-    background-color: #5E716A;
+    background-color: #C7C6C1;
 }
 
 .container img{
@@ -29,20 +30,23 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    font-family: 'Times New Roman', Times, serif;
+    
+    /* font-family: 'Gloria Hallelujah', cursive; */
+font-family: 'Handlee', cursive;
     padding: 0.5px;
-    height: 100px;
-    background-color: #051622;
+    height: 70px;
+    background-color: #BDB7AB;
 }
 
 nav .logo{
     float: left;
-    width: 40%;
-    height: 100%;
     display: flex;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
     align-items: center;
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 nav .links{
@@ -67,7 +71,7 @@ nav .links a{
     padding: 1em;
     font-size: 16px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.753);
+    color: rgb(63, 62, 62);
     text-decoration: none;
 }
 
@@ -87,7 +91,7 @@ nav .hamburger{
 nav .hamburger .line{
     width: 30px;
     height: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
     margin: 5px;
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
@@ -106,12 +110,12 @@ nav .hamburger .line{
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
+        top: 70px;
         bottom: 100%;
         flex-direction: column;
         width: auto;
         height: auto;
-        background-color: #466e75;
+        background-color: #C7C6C1;
         overflow: hidden;
         transition: all 0.5s ease-in-out;
     }
@@ -157,4 +161,6 @@ nav .hamburger .line{
 a{
     cursor: pointer;
 }
+
+
 
